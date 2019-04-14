@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+  </head>
+  <body>
+
+    <div class="canvas">
+
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-firestore.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDaCh_HPzUaNnmqrTD9zqet2cigs-pVStM",
+        authDomain: "training-238ee.firebaseapp.com",
+        databaseURL: "https://training-238ee.firebaseio.com",
+        projectId: "training-238ee",
+        storageBucket: "training-238ee.appspot.com",
+        messagingSenderId: "875091757063"
+      };
+      firebase.initializeApp(config);
+      const db = firebase.firestore();
+      //db.settings({timestampsInSnapshots: true})
+    </script>
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
